@@ -1,9 +1,9 @@
 ﻿# smart-shop
 available command
 
-    "start": "node backend/server",
-    "server": "nodemon backend/server",
-    "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d"
+    "npm run start": "node backend/server",
+    "npm run server": "nodemon backend/server",
+    "npm run client": "npm start --prefix frontend",
+    "npm run dev": "concurrently \"npm run server\" \"npm run client\"",
+    "npm run data:import": "node backend/seeder",
+    "npm run data:destroy": "node backend/seeder -d"
