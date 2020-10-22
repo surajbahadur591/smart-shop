@@ -1,5 +1,5 @@
 ﻿# smart-shop
-available command
+available commands
 
     "npm run start": "runs backend/server",
     "npm run server": "runs backend/server with nodemon",
